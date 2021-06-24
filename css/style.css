@@ -97,3 +97,21 @@
     bottom: 20px;
     left:0px
 }
+
+.img-none{
+    display: none;
+}
+
+.img-show{
+    display: block;
+}
+
+
+
+#cambioimmagine:hover .img-show{
+     display: none;
+}
+
+#cambioimmagine:hover .img-none{
+     display: block;
+}
